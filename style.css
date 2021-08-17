@@ -57,6 +57,9 @@ button {
     width: 120px;
     max-width: 70%;
 } 
+button:hover {
+    border: 2px solid var(--trans-white);
+}
 .sedans {
     background-color: var(--bright-orange);
 }
@@ -65,7 +68,6 @@ button {
 }
 .sedans button:hover {
     background-color: var(--bright-orange);
-    border: 2px solid var(--trans-white);
     color: var(--trans-white);
 }
 .suvs {
@@ -76,7 +78,6 @@ button {
 }
 .suvs button:hover {
     background-color: var(--dark-cyan);
-    border: 2px solid var(--trans-white);
     color: var(--trans-white);
 }
 .luxury {
@@ -87,7 +88,6 @@ button {
 }
 .luxury button:hover {
     background-color: var(--very-dark-cyan);
-    border: 2px solid var(--trans-white);
     color: var(--trans-white);
 }
 .attribution {
